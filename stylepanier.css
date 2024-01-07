@@ -1,0 +1,192 @@
+#chariot{
+    text-decoration: none;
+}
+
+.size80{
+    width: 80%;
+}
+#Titre-Panier{
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-family: "allerta stencil", sans-serif;
+}
+
+.trait-design-Panier{
+    width: 7%;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgb(231 , 65 , 43);
+}
+
+#basket-fiche{
+    width: 85%;
+    align-items: flex-start;
+}
+
+#injectJs{
+    width: 60%;
+    margin-bottom: 20px;
+
+}
+
+#basketProduit{
+width: 90%;
+margin-bottom: 10px;
+box-shadow: 0 2px 10px rgb(0 0 0 / 16%), 0 2px 5px rgb(0 0 0 / 26%);
+padding: 20px;
+
+}
+
+#blocImage{
+    width: 30%;
+}
+#blocImage > img {
+    width: 100%;
+    height: auto;
+}
+
+#blocProduit{
+width: 30%;
+}
+
+#bloc-change-produits {
+    width: 35%;
+}
+
+.boutton-moins
+.boutton-plus {
+    border: 1px solid rgb(231 , 65 , 43 , 0.178);
+    background-color: aliceblue;
+    color: brown;
+    font-size: xx-large;
+    width: 40px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.produit-quantite {
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: dimgrey;
+    width: 50px;
+    height: 50px;
+}
+
+.boutton-corbeille:hover{
+    cursor: pointer;
+    color: brown;
+}
+
+#basket-recap {
+    width: 30%;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 16%), 0 2px 5px rgb(0 0 0 / 26%);
+    padding: 20px;
+
+}
+
+.titre-recap{
+    font-size: xx-large;
+    font-weight: 400;
+    font-family: "Allerta stencil", sans-serif;
+    line-height: 1.4rem;
+}
+
+
+/* styles.css */
+
+header1 {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 0.5rem;
+    text-align: center;
+}
+
+.cart {
+    border: 1px solid #333;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.cart-item {
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Styles CSS pour la liste des produits */
+.product-list {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.product-list h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.product-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.product-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.product-list img {
+    max-width: 100px; /* Ajustez la taille de l'image selon vos besoins */
+    max-height: 100px;
+    margin-right: 10px;
+}
+
+.product-list button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+
+/* Styles CSS pour la liste des produits */
+/* ... (autres styles) ... */
+
+.product-list img {
+    max-width: 100px; /* Ajustez la taille de l'image selon vos besoins */
+    max-height: 100px;
+    margin-right: 10px;
+    transition: all 0.3s ease; /* Ajoutez une transition pour créer un effet fluide */
+}
+
+.product-list img.added-to-cart {
+    max-width: 50px; /* Redimensionnez la taille lorsque le produit est ajouté au panier */
+    max-height: 50px;
+}
+
+/* ... (autres styles) ... */
